@@ -1,0 +1,77 @@
+.image-container {
+    display: flex; /* Arrange image and text content side-by-side */
+    /* Adjust width and height as needed */
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .text-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    /* padding: 0px 80px; */
+    /* margin-top: -100px; */
+    width: 50%;
+    /* gap: -100px; */
+  }
+  
+  img {
+    /* Adjust image styles as needed */
+    /* width: 300px;
+    height: 200px;
+    object-fit: cover; Scale image to fit container */
+  }
+  
+  h1,
+  h2,
+  p {
+    margin:0;
+  }
+  h1{
+    font-size: 25px;
+  }
+  
+  .button-container {
+    display: flex;
+    /* justify-content: space-around; Space buttons horizontally */
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .logoimg{
+    width: 40%;
+    /* height: 450px; */
+  }
+  .notesphere{
+    width: 600px;
+    margin-left: -8px;
+    margin-top: -190px;
+  }
+  .login{
+    background-color: #3579E6;
+    color: white;
+    border-radius: 50px;
+    width: 125px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #3579E6;
+  }
+  .signup{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 125px;
+    font-size: 20px;
+    font-weight: 550;
+    border: 1px solid black;
+  }
